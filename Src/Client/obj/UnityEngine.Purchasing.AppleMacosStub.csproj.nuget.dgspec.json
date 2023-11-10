@@ -1,0 +1,525 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleMacosStub.csproj": {}
+  },
+  "projects": {
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj",
+        "projectName": "Purchasing.Common",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.Internal.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.Internal.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj",
+        "projectName": "Unity.Services.Core",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.Internal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.Internal.csproj",
+        "projectName": "Unity.Services.Core.Internal",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.Internal.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Unity.Services.Core.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.TestRunner.csproj",
+        "projectName": "UnityEditor.TestRunner",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj",
+        "projectName": "UnityEditor.UI",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.TestRunner.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.TestRunner.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleCore.csproj",
+        "projectName": "UnityEngine.Purchasing.AppleCore",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleCore.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleMacosStub.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleMacosStub.csproj",
+        "projectName": "UnityEngine.Purchasing.AppleMacosStub",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleMacosStub.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\Purchasing.Common.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEditor.UI.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleCore.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.Purchasing.AppleCore.csproj"
+              },
+              "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+                "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj",
+        "projectName": "UnityEngine.TestRunner",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.TestRunner.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj",
+        "projectName": "UnityEngine.UI",
+        "projectPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\UnityEngine.UI.csproj",
+        "packagesPath": "C:\\Users\\pf\\.nuget\\packages\\",
+        "outputPath": "E:\\staryProject\\mymmorpg\\Src\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\pf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.2.23502.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

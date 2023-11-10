@@ -1,0 +1,2103 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'zh' Physical Memory: 32706 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity 2022.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/staryProject/mymmorpg/Src/Client
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62318
+Successfully changed project path to: E:/staryProject/mymmorpg/Src/Client
+E:/staryProject/mymmorpg/Src/Client
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9132] Host "[IP] 172.25.240.1 [Port] 0 [Flags] 2 [Guid] 3548748100 [EditorId] 3548748100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UF3CVR4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9132] Host "[IP] 172.25.240.1 [Port] 0 [Flags] 2 [Guid] 3548748100 [EditorId] 3548748100 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UF3CVR4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 10.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/staryProject/mymmorpg/Src/Client/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity 2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity 2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity 2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002943 seconds.
+- Loaded All Assemblies, in  0.328 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 583ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (256ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Assets/References/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 5.76 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.610 seconds
+Domain Reload Profiling: 1159ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (338ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (610ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 5.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2534 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (73.8 KB). Loaded Objects now: 2971.
+Memory consumption went from 110.8 MB to 110.8 MB.
+Total: 6.069900 ms (FindLiveObjects: 0.189400 ms CreateObjectMapping: 0.150400 ms MarkObjects: 5.611800 ms  DeleteObjects: 0.117300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Assets/References/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.480 seconds
+Refreshing native plugins compatible for Editor in 5.28 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1217ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (167ms)
+		LoadAssemblies (229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (737ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (191ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (47.7 KB). Loaded Objects now: 2974.
+Memory consumption went from 110.4 MB to 110.3 MB.
+Total: 6.572900 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.167300 ms MarkObjects: 6.113200 ms  DeleteObjects: 0.089100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Duplicate assembly 'log4net.dll' with different versions detected, using 'Assets/References/log4net.dll, AssemblyName=log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=null' and ignoring 'Packages/com.unity.collab-proxy/Lib/Editor/PlasticSCM/log4netPlastic.dll, AssemblyName=log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a'.Duplicate assembly 'Newtonsoft.Json.dll' with different versions detected, using 'Packages/com.unity.nuget.newtonsoft-json/Runtime/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed' and ignoring 'Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll, AssemblyName=Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=null'.Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.594 seconds
+Refreshing native plugins compatible for Editor in 5.51 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.753 seconds
+Domain Reload Profiling: 1348ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (243ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (68ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (35ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (754ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (154ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 5.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2522 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (47.7 KB). Loaded Objects now: 2977.
+Memory consumption went from 112.3 MB to 112.3 MB.
+Total: 6.249300 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.208300 ms MarkObjects: 5.751900 ms  DeleteObjects: 0.082500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 109920.471816 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(762345a0c0253e34eafa45dbe39bc7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain 1.asset using Guid(762345a0c0253e34eafa45dbe39bc7ef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c1d9d37084cfc4484828f709dfd2518') in 0.201754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/References/log4net.dll.mdb
+  artifactKey: Guid(e63ac4e6a16dda047a1dbc9b610b73e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/References/log4net.dll.mdb using Guid(e63ac4e6a16dda047a1dbc9b610b73e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a44143a26e5712b94320d6e15bd840fe') in 0.003745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/UI/Common/main_chat_bg.png
+  artifactKey: Guid(81553cc8f60d74b449708a82f442084f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_chat_bg.png using Guid(81553cc8f60d74b449708a82f442084f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7096e76211bba483c0ac3cc78697264f') in 0.038949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Common/main_chat_channel_team.png
+  artifactKey: Guid(362261b875b87a84b8125dfb9af94b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_chat_channel_team.png using Guid(362261b875b87a84b8125dfb9af94b5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e83f941c9d9a2cc047757f8c82f8a358') in 0.018806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI/Common/main_avater_bg.png
+  artifactKey: Guid(55b4c081e9c20be41b5b4a5e346fd12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_avater_bg.png using Guid(55b4c081e9c20be41b5b4a5e346fd12f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '862dad5efa626c6e8395949cb784b7f4') in 0.016803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/JsonDotNet/JsonDotNet201Source.zip
+  artifactKey: Guid(9a6f8c7c1ea72ce46831c5e1b6150d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JsonDotNet/JsonDotNet201Source.zip using Guid(9a6f8c7c1ea72ce46831c5e1b6150d0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1577f430d5fa079ef9ec10f2a545c346') in 0.003553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/UI/loading_bar.png
+  artifactKey: Guid(b86189bb0df372346990cc3763366b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/loading_bar.png using Guid(b86189bb0df372346990cc3763366b23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fb5c4642764b768131c7d0f542b17f7') in 0.017694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Common/main_chat_channel_world.png
+  artifactKey: Guid(2d06909330fe1d6418900390b5c98cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_chat_channel_world.png using Guid(2d06909330fe1d6418900390b5c98cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a25f70b3957d01d124d0f0140d7af38') in 0.020160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(26a0e017d10873d47958fedc404d4d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain.asset using Guid(26a0e017d10873d47958fedc404d4d14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe608c92a1c0cbc05ca2f72db832e95e') in 0.095992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UI/Common/main_chat_btn_normal.png
+  artifactKey: Guid(95ae2d55ff6917e44ad03d13433025d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_chat_btn_normal.png using Guid(95ae2d55ff6917e44ad03d13433025d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd06990a917607a5e4f26fc4aa5162f9') in 0.016376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_I1_Ground_Forest.(Texture)8c44e42493390d78.terrainlayer
+  artifactKey: Guid(702c1e2d479096948b7b0e079d04ed07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_I1_Ground_Forest.(Texture)8c44e42493390d78.terrainlayer using Guid(702c1e2d479096948b7b0e079d04ed07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40644236f99a079a8a1985d6dbe47fcc') in 0.007709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Animations/UIGameTips.controller
+  artifactKey: Guid(9fdd24b108fd5aa43b582caf26b7cfb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Animations/UIGameTips.controller using Guid(9fdd24b108fd5aa43b582caf26b7cfb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cbc9b18dee55178b7a14ded7c612ae63') in 0.004627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Common/main_exp_bar.png
+  artifactKey: Guid(9288ea6c45e9a644da3837a8ba9ad5aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_exp_bar.png using Guid(9288ea6c45e9a644da3837a8ba9ad5aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b31daa54f27358666d94f37fd2eb64d') in 0.017139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Scripts/UI/UIMessageBox.cs
+  artifactKey: Guid(e88aa8f4fc5e3fa4abc0eaba5556b48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UI/UIMessageBox.cs using Guid(e88aa8f4fc5e3fa4abc0eaba5556b48e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81cb9ed41c17c171db5a29f7b9af5c75') in 0.004285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Resources/UI/UIMessageBox.prefab
+  artifactKey: Guid(80b5cbd39a2225445a26f9956701bffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/UI/UIMessageBox.prefab using Guid(80b5cbd39a2225445a26f9956701bffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '570cacd2a8b39d43d0d3fc1a0390daae') in 0.054001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/Map02.unity
+  artifactKey: Guid(f9626b406d2d957469f8fd9f8a62f3a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02.unity using Guid(f9626b406d2d957469f8fd9f8a62f3a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6caece584fe1d9870ef044f342e5baaf') in 0.003388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/UI/play.jpg
+  artifactKey: Guid(81c5bf52883407042bf42317cf9c3926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/play.jpg using Guid(81c5bf52883407042bf42317cf9c3926) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb35150e2eebbe2a70532fefdfba5573') in 0.024083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Fonts/numbers.png
+  artifactKey: Guid(bd7d0663d9703cd41a5050c2bb73b319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Fonts/numbers.png using Guid(bd7d0663d9703cd41a5050c2bb73b319) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef2fcd52586974bfdf33496dc0501d22') in 0.050014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Fonts/SIMYOU.TTF
+  artifactKey: Guid(721c2ca643ff25e41ac39cd48714f38e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Fonts/SIMYOU.TTF using Guid(721c2ca643ff25e41ac39cd48714f38e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13a0c7ce297cc0dc6fe37dcb44fc3c92') in 0.020359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/Login/ff1.png
+  artifactKey: Guid(2adbb2c88a778744fbdd6d60f69ca333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/ff1.png using Guid(2adbb2c88a778744fbdd6d60f69ca333) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16ad36770fcfa547ab20d5f0f391b39f') in 0.016896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UI/Login/input_bg.png
+  artifactKey: Guid(591e0d841245aa9448d2fcf10957ccc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/input_bg.png using Guid(591e0d841245aa9448d2fcf10957ccc9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc3bcecb478aeeabcd80d7c76215d7a4') in 0.015286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/UI/Login/login_title_bar_bg.png
+  artifactKey: Guid(2becd76e476c24a42b14ccab007bcb40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/login_title_bar_bg.png using Guid(2becd76e476c24a42b14ccab007bcb40) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b66b4eb7a9c2c378f6c7eec57f7811f2') in 0.018121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/UI/Icons/item_icon_scroll.png
+  artifactKey: Guid(7445e487bc5633f42996237980019c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Icons/item_icon_scroll.png using Guid(7445e487bc5633f42996237980019c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c19e517f115217321c70d9af118c19a') in 0.014800 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/UI/Login/btn_enter_game.png
+  artifactKey: Guid(08af591aee7f8b04697bd3ea28b136c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/btn_enter_game.png using Guid(08af591aee7f8b04697bd3ea28b136c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ef9af75abc8f44260fbb94483f8eaa') in 0.017545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Login/check_box_bg.png
+  artifactKey: Guid(52373e0e91f41fd4d837e655d0cbddc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/check_box_bg.png using Guid(52373e0e91f41fd4d837e655d0cbddc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aabd5ffb9b6314bb493fc69ca09e44a5') in 0.014796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Common/main_icon_slot.png
+  artifactKey: Guid(5824deeb82dbed3449e153305968b3f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_icon_slot.png using Guid(5824deeb82dbed3449e153305968b3f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ea13431d42d667076adc4766d6f40b1') in 0.018020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/UI/Login/login_lb_confirmpass.png
+  artifactKey: Guid(a4e08b06157f7df4ca560500273c289e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/login_lb_confirmpass.png using Guid(a4e08b06157f7df4ca560500273c289e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4bdfb6835794e0a4e18b28d7a27fe362') in 0.019306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Login/login_lb_pass.png
+  artifactKey: Guid(1ba52a928a7133e4d9be8c50c1918803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/login_lb_pass.png using Guid(1ba52a928a7133e4d9be8c50c1918803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc4028b6a3c8dc2a0489d3a95b5a6c03') in 0.015107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI/Login/f3.png
+  artifactKey: Guid(fbf15f9414191c649bcb87c67ca5844c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/f3.png using Guid(fbf15f9414191c649bcb87c67ca5844c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '465cdf5210554f8a13770db5b7558189') in 0.015003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Levels/Map03/LightingData.asset
+  artifactKey: Guid(859bfabf283c44840b743e984f2c484a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/LightingData.asset using Guid(859bfabf283c44840b743e984f2c484a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7873e515bca9fda289f7e45c2527fee7') in 0.005231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/References/Protocol.dll
+  artifactKey: Guid(7051ae206486bf8469e5fd8a96c16220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/References/Protocol.dll using Guid(7051ae206486bf8469e5fd8a96c16220) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdc0b002d4850e7a66f5ab56df398f01') in 0.005195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/References/Protocol.dll.mdb
+  artifactKey: Guid(44e58472c153b014c94822b1ea029043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/References/Protocol.dll.mdb using Guid(44e58472c153b014c94822b1ea029043) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e7183bd92f32016d6e195c763cfdf64') in 0.003031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Levels/Map03/Lightmap-1_comp_light.exr
+  artifactKey: Guid(b517e129ec97f6649b3cc03d7c95a267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Lightmap-1_comp_light.exr using Guid(b517e129ec97f6649b3cc03d7c95a267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '46119869343b87d8c4259040d3099e40') in 0.030671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/UI/Common/main_shortcut_btn.png
+  artifactKey: Guid(8d8af6cf9fa45df4faad977495be1fd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_shortcut_btn.png using Guid(8d8af6cf9fa45df4faad977495be1fd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f86d290c30aa0a05db244d5c9db13e55') in 0.015947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Scripts/Services/UserService.cs
+  artifactKey: Guid(f4feae5135f8931458b69321f633243c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Services/UserService.cs using Guid(f4feae5135f8931458b69321f633243c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50e9f43f4d64c66adeecf0ce498d2f31') in 0.004411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/References/protobuf-net.xml
+  artifactKey: Guid(072043ef8d171254882e73b37f824cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/References/protobuf-net.xml using Guid(072043ef8d171254882e73b37f824cbd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e3958a6406c73d1335270cb7eaedae6f') in 0.003893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Levels/Map03/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c49ffd42319029449b37829925875008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Lightmap-0_comp_light.exr using Guid(c49ffd42319029449b37829925875008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dc3869deb7e2b9fd27d0625b8a4b846') in 0.019181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_terrain_grass001cd2d2d038030d602.terrainlayer
+  artifactKey: Guid(9454048ef0f8c7449a9c5fbf699b81b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/_TerrainAutoUpgrade/layer_terrain_grass001cd2d2d038030d602.terrainlayer using Guid(9454048ef0f8c7449a9c5fbf699b81b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71260a7324a42fd012fa148492220301') in 0.004859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/LightingData.asset
+  artifactKey: Guid(1f078a6bfbe3c9a4094c9b2e0d3975ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/LightingData.asset using Guid(1f078a6bfbe3c9a4094c9b2e0d3975ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '017ea9bb81015ee3d9395b46021b03ab') in 0.005562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/UI/game_tips.png
+  artifactKey: Guid(d2a8d458f2f7b4e44bfa5519330c4d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/game_tips.png using Guid(d2a8d458f2f7b4e44bfa5519330c4d1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '733ef51716b5d51bf91400edaea0e988') in 0.015681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Shader/MyMobile Particles AddNoMask Diff.shader
+  artifactKey: Guid(c1b286e863402f94ba800edef8c67c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shader/MyMobile Particles AddNoMask Diff.shader using Guid(c1b286e863402f94ba800edef8c67c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '57ebe4e3a253530d339813de73badec8') in 0.008522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Levels/Map02/Lightmap-0_comp_dir.png
+  artifactKey: Guid(fbb3687102bf8294aa618b9555e6cfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Lightmap-0_comp_dir.png using Guid(fbb3687102bf8294aa618b9555e6cfe2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a355afb80977b5d503e0916c0a82648') in 0.016924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Scripts/Network/NetClient.cs
+  artifactKey: Guid(750c4d578a0cc594f9408253b427d2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Network/NetClient.cs using Guid(750c4d578a0cc594f9408253b427d2e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53671ffb4063aacbff610f7912d40557') in 0.003547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/UI/Fonts/msyh.ttc
+  artifactKey: Guid(9cdf50e78f84cd44498bdc93925ab83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Fonts/msyh.ttc using Guid(9cdf50e78f84cd44498bdc93925ab83e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6676dee916a7853d786b28d4750a422') in 0.030222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Login/df.png
+  artifactKey: Guid(676e5371c6115fb48980fed29e7ed033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/df.png using Guid(676e5371c6115fb48980fed29e7ed033) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30eed6fb8b0d0f70b41ac83fcd8497eb') in 0.019904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/UI/Login/g2.PNG
+  artifactKey: Guid(4aabf3ba5bd99b6418dd1370b662df21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/g2.PNG using Guid(4aabf3ba5bd99b6418dd1370b662df21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a8ccf68f46e879fb5cec7b9c7607e35') in 0.018039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI/start_up_bg.jpg
+  artifactKey: Guid(9954aa84890a04b4b948c84a8d46deda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/start_up_bg.jpg using Guid(9954aa84890a04b4b948c84a8d46deda) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eaed96e7cd1c4def8d0000f7c208ffa1') in 0.031983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/UI/Login/2.png
+  artifactKey: Guid(38fe606ae276a50409e9d6c69f1e89a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/2.png using Guid(38fe606ae276a50409e9d6c69f1e89a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c91c80096724cb1e91a87ecdf46a05fc') in 0.015322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Levels/MainCity/Textures/I1_Ground_Road.(Texture).png
+  artifactKey: Guid(a8dca634eea659d4a83f58410257ab24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Textures/I1_Ground_Road.(Texture).png using Guid(a8dca634eea659d4a83f58410257ab24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c75725077df34372fb3f168492783374') in 0.015177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Levels/Map02/Materials/stsm_plant_shuye_002.mat
+  artifactKey: Guid(dbd5153c128c9a949b0a229b500ec513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Materials/stsm_plant_shuye_002.mat using Guid(dbd5153c128c9a949b0a229b500ec513) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa03af27245fe60a19a7e5752a9c3864') in 0.013701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Login/z2.PNG
+  artifactKey: Guid(4e76f48104dd0d54aad3991a3e39da2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/z2.PNG using Guid(4e76f48104dd0d54aad3991a3e39da2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6431a15a97d8fe4d38a934ed26fc92e') in 0.015432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/Map02/Prefabs/stsm_plant_shugan_01.prefab
+  artifactKey: Guid(6e7e974bfd5b7c8418356654f80a2c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Prefabs/stsm_plant_shugan_01.prefab using Guid(6e7e974bfd5b7c8418356654f80a2c2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6575bb11b6fef022e6d45986e85f594') in 0.007378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML
+  artifactKey: Guid(36f7323c55864364d8bb88c736e4bca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JsonDotNet/Assemblies/Windows/Newtonsoft.Json.XML using Guid(36f7323c55864364d8bb88c736e4bca6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afe2962abeb4286799255c80925a3c82') in 0.003611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Levels/Map02/Materials/stsm_build_002.mat
+  artifactKey: Guid(9f44918a27dd7d64781eb7a26c026da1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Materials/stsm_build_002.mat using Guid(9f44918a27dd7d64781eb7a26c026da1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50cd184a2f5167c516370604ea2532d7') in 0.043259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Levels/MainCity/Textures/skybox_yun_00.tga
+  artifactKey: Guid(fbe330e1e6d9334478030d3cb55c9399) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Textures/skybox_yun_00.tga using Guid(fbe330e1e6d9334478030d3cb55c9399) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2607a5249248fc7d1e73b8c3984b9aa3') in 0.015432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Levels/Map02/Materials/01 - Default.mat
+  artifactKey: Guid(a8404245e0996a949b43e4355d229a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Materials/01 - Default.mat using Guid(a8404245e0996a949b43e4355d229a08) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55bd686ac8f471eaae9e9b8b88ff7a40') in 0.028394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/Prefabs/Dialog.prefab
+  artifactKey: Guid(eda90b3bdeb00ca40a07c428284a841c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Prefabs/Dialog.prefab using Guid(eda90b3bdeb00ca40a07c428284a841c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1b080b4d6035d0809a5e0f62d76a46b') in 0.024442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/Prefabs/player.prefab
+  artifactKey: Guid(0d3ecc72d9e7cb240b4e70aa5c460a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/player.prefab using Guid(0d3ecc72d9e7cb240b4e70aa5c460a3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd43aed1bd851321d3a96233081710f45') in 0.008405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Prefabs/UIWorldElementManager.prefab
+  artifactKey: Guid(50d6a7ba7e384ae41a1dfd672de10640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Prefabs/UIWorldElementManager.prefab using Guid(50d6a7ba7e384ae41a1dfd672de10640) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82e34719bb418020d5b5571af1ec8352') in 0.037560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.001591 seconds.
+  path: Assets/Levels/Map03/Materials/common_city_dahuaping.mat
+  artifactKey: Guid(49c40c00b43eec34783c8885921f6cb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/common_city_dahuaping.mat using Guid(49c40c00b43eec34783c8885921f6cb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e520d7e7071740c8257578b573449e4') in 0.005849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Levels/MainCity/Textures/terrain_yewai_shitou_jiemian_02.png
+  artifactKey: Guid(d79e27879be36a940a6c2d547e8ff47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Textures/terrain_yewai_shitou_jiemian_02.png using Guid(d79e27879be36a940a6c2d547e8ff47f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '992d6f0486d553c103f9f02a45e92271') in 0.014183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Levels/Map02/Materials/xsc_plant001.mat
+  artifactKey: Guid(6c0d2b46f4a0a3646a555030d0174f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Materials/xsc_plant001.mat using Guid(6c0d2b46f4a0a3646a555030d0174f63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cfa299ac152c7aa854306e9520cead2') in 0.005289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Login/login_lb_email.png
+  artifactKey: Guid(3fa35490fed34d74d8dc2f9cc143f806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/login_lb_email.png using Guid(3fa35490fed34d74d8dc2f9cc143f806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6d4b793578560e1b677f48d3deab62b') in 0.016263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/UI/Login/b.png
+  artifactKey: Guid(75702316ea766cb43857bd031f5180c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/b.png using Guid(75702316ea766cb43857bd031f5180c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9b6ed175e35165fa66fc498b5391471') in 0.020093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Levels/MainCity/Textures/terrain_section03_guanka06_04.tga
+  artifactKey: Guid(b54d665a579be8541b803d7cce84e2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Textures/terrain_section03_guanka06_04.tga using Guid(b54d665a579be8541b803d7cce84e2b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5130b12dd899d8fcace3e23bd141b44e') in 0.013685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scripts/UI/UIRegister.cs
+  artifactKey: Guid(b11e4559a29902c42b2e2a659e7d164d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/UI/UIRegister.cs using Guid(b11e4559a29902c42b2e2a659e7d164d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffa72f1335a29563ac5ec623f5b028d1') in 0.003602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Levels/MainCity/Prefabs/GameObject.prefab
+  artifactKey: Guid(ee930da01bde62745a2f4d64c217d25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/GameObject.prefab using Guid(ee930da01bde62745a2f4d64c217d25f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4017d4bdb6ad0607f50ef1d168f645e1') in 0.003777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Levels/MainCity/Animation/denglu_light_1_1.anim
+  artifactKey: Guid(1a91967f7ae384a49992058f22ef252f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Animation/denglu_light_1_1.anim using Guid(1a91967f7ae384a49992058f22ef252f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc7c90e8a8fd7ea571c0679c28705b25') in 0.006250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/UI/Common/main_mp_bar.png
+  artifactKey: Guid(326b5f1b91933f94183c1fd9444ccf35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_mp_bar.png using Guid(326b5f1b91933f94183c1fd9444ccf35) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bbee7d88e47bf8ba3156fef21c5fe3c') in 0.015407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI/Icons/item_icon_exp2.png
+  artifactKey: Guid(8501585d9d37dc94892f387f089d50e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Icons/item_icon_exp2.png using Guid(8501585d9d37dc94892f387f089d50e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c499188fbd7581d9269726c1740f3b0a') in 0.017185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Common/main_scroll_btn.png
+  artifactKey: Guid(025fe4062bdcaf5469eaae8800e9a6b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Common/main_scroll_btn.png using Guid(025fe4062bdcaf5469eaae8800e9a6b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f302c00c3f8e388ee60139aa0dd687f2') in 0.016293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Resources/log4net.xml
+  artifactKey: Guid(2efb29b414111d044a5f3a1508d4f519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Resources/log4net.xml using Guid(2efb29b414111d044a5f3a1508d4f519) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b315f4d29f9442b1c1e7ff66cc186b53') in 0.003799 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/UI/logo.png
+  artifactKey: Guid(78880adcb0ab6fb45aea9f00dcd2616e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/logo.png using Guid(78880adcb0ab6fb45aea9f00dcd2616e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4fa6d4e409b623f70cad564293d17ac') in 0.017378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf
+  artifactKey: Guid(4e7d9a07cc3f02a41a575406e7230846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JsonDotNet/Documentation/Json Net for Unity 2.0.1.pdf using Guid(4e7d9a07cc3f02a41a575406e7230846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1392a62cabbfa84243c1e4bd485aa60d') in 0.003153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/UI/Icons/item_icon_exp3.png
+  artifactKey: Guid(0eab0e762e9bd5f468d56673893ed856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Icons/item_icon_exp3.png using Guid(0eab0e762e9bd5f468d56673893ed856) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b855496d1f912f888393cc750143f282') in 0.016272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UI/Animations/AniGameTips.anim
+  artifactKey: Guid(0a2be6e9b66b3a64b8ecee884d1c3c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Animations/AniGameTips.anim using Guid(0a2be6e9b66b3a64b8ecee884d1c3c9d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '234d1422cce3bfcbb2a7f1a2740def19') in 0.005458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Levels/MainCity/Animation/skybox_stsm_yun_002.anim
+  artifactKey: Guid(bdd98f5b9c2c6464d9ed410e12a47525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Animation/skybox_stsm_yun_002.anim using Guid(bdd98f5b9c2c6464d9ed410e12a47525) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42f9f002d15d9d886ff8231e32ed2409') in 0.006391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Levels/MainCity/Prefabs/stsm_lens flare.prefab
+  artifactKey: Guid(76588264f78eeb54d804a65a9a049750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/stsm_lens flare.prefab using Guid(76588264f78eeb54d804a65a9a049750) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cc7c882d116edb07cf15b3d0af6b26b') in 0.006598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/UI/Prefabs/UINameBar.prefab
+  artifactKey: Guid(6300d26f949b20045a84af9e8ae87a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Prefabs/UINameBar.prefab using Guid(6300d26f949b20045a84af9e8ae87a28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e63ec5e17acf3b76d8068cd851166b60') in 0.018933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/MainCity/Animation/denglu_light_1_4.anim
+  artifactKey: Guid(df759bcdbf528ab4b93e02242b6259ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Animation/denglu_light_1_4.anim using Guid(df759bcdbf528ab4b93e02242b6259ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35b647a5bd5622cd59ff1dc473fc3039') in 0.004640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Levels/MainCity/Animation/stsm_build_penshuichi_002.anim
+  artifactKey: Guid(50d4c7d8003da504bb7441665fdaccad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Animation/stsm_build_penshuichi_002.anim using Guid(50d4c7d8003da504bb7441665fdaccad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbf3e80de39296298dc27126bba05868') in 0.004578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Levels/Map02/Textures/stsm_build_002.tga
+  artifactKey: Guid(73f30aee17c13924395c6aeb852e0d12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Textures/stsm_build_002.tga using Guid(73f30aee17c13924395c6aeb852e0d12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8696b253bb05d1e243f94f3a12bf8864') in 0.013766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Levels/Map03/Materials/effect_Fire_1.mat
+  artifactKey: Guid(3aec725a0619ebf42b804a287ebbe7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/effect_Fire_1.mat using Guid(3aec725a0619ebf42b804a287ebbe7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ccde9ef29cd4e4f4a54cde6d4afa50c9') in 0.004926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Prefabs/Button.prefab
+  artifactKey: Guid(1ee80ae8a1eeee345919b6fd845a9de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Prefabs/Button.prefab using Guid(1ee80ae8a1eeee345919b6fd845a9de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0cd50b281f03c82cd3c0cd4e15b91b5') in 0.024468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Levels/Map03/Textures/section03_guanka10dimian1_4.tga
+  artifactKey: Guid(1f13cb14f919dde47b31b7dd2ed857f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/section03_guanka10dimian1_4.tga using Guid(1f13cb14f919dde47b31b7dd2ed857f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '455aa6a89812374aa9bac22001006d20') in 0.016640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_a.prefab
+  artifactKey: Guid(b2de1354457e94c4d9729edbc87ad83d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_a.prefab using Guid(b2de1354457e94c4d9729edbc87ad83d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f72955db5eb6014d1ac3e396ee3c513') in 0.005911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Characters/Warrior/Material #82.mat
+  artifactKey: Guid(65f14cd9e9e1cca45898e3bfad5b5861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Warrior/Material #82.mat using Guid(65f14cd9e9e1cca45898e3bfad5b5861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a78a17a89e55fefc1c0a9fbe439a87cf') in 0.015831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka16_dimian.FBX
+  artifactKey: Guid(03fd1e53432dddb49af81dd3082e8315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka16_dimian.FBX using Guid(03fd1e53432dddb49af81dd3082e8315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93aee750b1149419a0dac4bfd9141603') in 0.031878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Levels/Map03/Models/denglu_light.FBX
+  artifactKey: Guid(452a8c36ad572734fb8f55075775be44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/denglu_light.FBX using Guid(452a8c36ad572734fb8f55075775be44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd7c5fc213ae0b923b652154304d96e22') in 0.017003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka10_3.FBX
+  artifactKey: Guid(653017012497cff4990ac738e1a56678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka10_3.FBX using Guid(653017012497cff4990ac738e1a56678) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e701a9f11744781bdd60fb7a7e75538') in 0.014886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/Map03/Textures/effect_Fire_1.tga
+  artifactKey: Guid(44523074692b5ef4c8aa9c7bc444b153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/effect_Fire_1.tga using Guid(44523074692b5ef4c8aa9c7bc444b153) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f319ddf5b3b0c34e63ad7636c74e1d58') in 0.016154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Models/Characters/Archer/Archer.controller
+  artifactKey: Guid(d480eb8963a02ee408a401519d362fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/Archer.controller using Guid(d480eb8963a02ee408a401519d362fd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9637b100c44ddb95e9e9b5bddca2135') in 0.018562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/NPCs/DeliveryNPC/DeliveryNPC.FBX
+  artifactKey: Guid(ac535640ec6e2fe428b3b8662d0c079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/DeliveryNPC/DeliveryNPC.FBX using Guid(ac535640ec6e2fe428b3b8662d0c079f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50b512903b951181fdf799a7974e9899') in 0.028658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Levels/Map03/Textures/common_city_tianshi.tga
+  artifactKey: Guid(517f407414a434c48b2eb3dbdb230a60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/common_city_tianshi.tga using Guid(517f407414a434c48b2eb3dbdb230a60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8436e8ddf205797c0d76a753e7d3794') in 0.016245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Models/Characters/Wizard/Wizard.controller
+  artifactKey: Guid(a149e0294082bb948a9b133df36a6ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/Wizard.controller using Guid(a149e0294082bb948a9b133df36a6ebd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '841e9412e9bc78138dc928ea801550b1') in 0.019641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_5.mat
+  artifactKey: Guid(bf2d0c8adc0c28f4fb38525e099a72e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_5.mat using Guid(bf2d0c8adc0c28f4fb38525e099a72e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75e901b4db823bc6009b417d676ec8de') in 0.004764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_4.mat
+  artifactKey: Guid(05877bf000f8fb44e9868e6d29498d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_4.mat using Guid(05877bf000f8fb44e9868e6d29498d19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30a7b6233d8a462a8782bf64774f06a8') in 0.005249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/Map03/Prefabs/building_section03_guanka10_6.prefab
+  artifactKey: Guid(3eba9390a39753544be4ec7c11980264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/building_section03_guanka10_6.prefab using Guid(3eba9390a39753544be4ec7c11980264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '33b96f4faf079033fdaeb0dad338ca05') in 0.006827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka16_d.FBX
+  artifactKey: Guid(2055362638525044f96b65f8789e3144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka16_d.FBX using Guid(2055362638525044f96b65f8789e3144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81d0cc3e9ef765cabb5a84d1ee4c198f') in 0.019360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka10_5.FBX
+  artifactKey: Guid(5d61ceadd64a22042a5b5f5802ced723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka10_5.FBX using Guid(5d61ceadd64a22042a5b5f5802ced723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96bd8796376280daa5ead718b1f7c20b') in 0.020399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Levels/Map03/Textures/section03_guanka10dimian1_2.tga
+  artifactKey: Guid(d6c2dc5315dfd0f47ba7455ec0e2c488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/section03_guanka10dimian1_2.tga using Guid(d6c2dc5315dfd0f47ba7455ec0e2c488) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e50ce21252f5230c0132902066116a16') in 0.014627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Levels/Map03/Prefabs/effect_Fire_red.prefab
+  artifactKey: Guid(b6be55f7a03c5624faf3059c960ae6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/effect_Fire_red.prefab using Guid(b6be55f7a03c5624faf3059c960ae6c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '35bc5d9112df04b7adfa24a54905effa') in 0.007560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Characters/Archer/Archer.mat
+  artifactKey: Guid(f183074ae106061459f94eb60bdbc1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/Archer.mat using Guid(f183074ae106061459f94eb60bdbc1ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698cd5ec97d19fa062be5a55d2b1f1fe') in 0.017444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Levels/Map03/Prefabs/common_city_tianshi.prefab
+  artifactKey: Guid(0d4a02cc69f38c44b81ffa791a4680ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/common_city_tianshi.prefab using Guid(0d4a02cc69f38c44b81ffa791a4680ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23b1b48ccce4b6a37e31ade47e6a3832') in 0.005806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka10_6.FBX
+  artifactKey: Guid(3ed77967d8ff34d46ae592847cd55f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka10_6.FBX using Guid(3ed77967d8ff34d46ae592847cd55f87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '99f0d5ad5d29795fff784ac39aca36a6') in 0.014805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_6.mat
+  artifactKey: Guid(ef3dcd3fbf381c34e88e6d2e5c4230ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_6.mat using Guid(ef3dcd3fbf381c34e88e6d2e5c4230ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05d3879177d390ee69274d5515ba88bc') in 0.006196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/Map03/Models/common_city_dazhutai.FBX
+  artifactKey: Guid(f6ab15a2841b48347bc81573cc0bd440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/common_city_dazhutai.FBX using Guid(f6ab15a2841b48347bc81573cc0bd440) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0274a055638a301f688709f0b79380b7') in 0.018003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Levels/Map03/Textures/common_boss_jiaotingwangzuo_02.tga
+  artifactKey: Guid(44b3ae1866a517e46b9040aaf764676b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/common_boss_jiaotingwangzuo_02.tga using Guid(44b3ae1866a517e46b9040aaf764676b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '626181ed7458d6f0bf7135665d3973dd') in 0.017456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka10_5_po.prefab
+  artifactKey: Guid(93da49e83bad82347ab11dc5d42349ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka10_5_po.prefab using Guid(93da49e83bad82347ab11dc5d42349ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff0e38adc7bb993e1ac20fd13038af04') in 0.005937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/Map03/Textures/effect_Fire_2.tga
+  artifactKey: Guid(61ee05c91fe81364bbecf5a38b1f85a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/effect_Fire_2.tga using Guid(61ee05c91fe81364bbecf5a38b1f85a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4aa96a186a670553dd59b9bf8e7a73d') in 0.017588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Levels/Map03/Models/section03_guanka16_c.FBX
+  artifactKey: Guid(e9da584dbf009b74b9905b7017fe6ed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Models/section03_guanka16_c.FBX using Guid(e9da584dbf009b74b9905b7017fe6ed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ffce3f6c443593a5c005002b7918f8f') in 0.016916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/Map03/Prefabs/common_city_dazhutai.prefab
+  artifactKey: Guid(e86635820326660418cdc6800d315439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/common_city_dazhutai.prefab using Guid(e86635820326660418cdc6800d315439) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65ea96eb2416f40126a60716883d2c13') in 0.006855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/Map03/Materials/section03_guanka10dimian1_7.mat
+  artifactKey: Guid(e8411ffa02621a244bd673ac8f92eaa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Materials/section03_guanka10dimian1_7.mat using Guid(e8411ffa02621a244bd673ac8f92eaa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5046eebc84cc952e7247659ee3bb486a') in 0.008902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/Characters/Archer/Archer.FBX
+  artifactKey: Guid(c9d8afea1d6f5614485dd29f43645b28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/Archer.FBX using Guid(c9d8afea1d6f5614485dd29f43645b28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28036d7d08f3ad16272ca84a1111c40e') in 0.026441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 168
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/Map03/Prefabs/building_section03_guanka10_3.prefab
+  artifactKey: Guid(1220364fb0484cc4c9ad7dd8af802d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/building_section03_guanka10_3.prefab using Guid(1220364fb0484cc4c9ad7dd8af802d6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19f55ed5e1785e109e1d2701c8c182ba') in 0.008069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Monsters/M1001/M1001.FBX
+  artifactKey: Guid(366b16e027563b5449acfa8808a8effb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/M1001.FBX using Guid(366b16e027563b5449acfa8808a8effb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03341c2176028bccbc1a262c3df0b239') in 0.025249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 106
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Levels/MainCity/Models/build/stsm_build_chengqiang_002.FBX
+  artifactKey: Guid(54c58523adcdc8846b6ef9e4a0f913c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/build/stsm_build_chengqiang_002.FBX using Guid(54c58523adcdc8846b6ef9e4a0f913c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '634ca889b1d1a0d5622f35537c622f3a') in 0.016573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/Models/other/zhangpeng01.FBX
+  artifactKey: Guid(f8c84c45931db6045b77565fe95bf9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/zhangpeng01.FBX using Guid(f8c84c45931db6045b77565fe95bf9ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecd7a3fd6088ab886e2d99786c0fbb1e') in 0.017767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/Prefabs/other/stsm_other_muxiang_001.prefab
+  artifactKey: Guid(b271c24a48ae7a74a95dc221d0531459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/other/stsm_other_muxiang_001.prefab using Guid(b271c24a48ae7a74a95dc221d0531459) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '291e0493078a2a580df4fe02d3b5f1d9') in 0.005630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Models/build/stsm_build_shuijing_001.FBX
+  artifactKey: Guid(64e38bae2f2925743b36b5ba5dbd2835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/build/stsm_build_shuijing_001.FBX using Guid(64e38bae2f2925743b36b5ba5dbd2835) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4dda948d62637d7682e7a9a8e99bce0') in 0.018074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Levels/MainCity/Models/texture/stsm_build_paihangbang_001.tga
+  artifactKey: Guid(4f2e1157c8b57f744bf46792666da252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/stsm_build_paihangbang_001.tga using Guid(4f2e1157c8b57f744bf46792666da252) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '947258a7bb89dcd8d8e58ba3c9c4fe51') in 0.018727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/skybox/skybox_zhucheng_001.FBX
+  artifactKey: Guid(66454c1ce89c4fb4694f842c6ea10ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/skybox/skybox_zhucheng_001.FBX using Guid(66454c1ce89c4fb4694f842c6ea10ee1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26d8c14b74cf89b6601a0dae23caa97b') in 0.019987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/MainCity/Prefabs/other/stsm_other_dunpai_001.prefab
+  artifactKey: Guid(a7f86fbfe4fbde948b16fa6b5a882f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/other/stsm_other_dunpai_001.prefab using Guid(a7f86fbfe4fbde948b16fa6b5a882f27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be1c0c555db2703f4d1d3c24f3ab4acb') in 0.006398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_other_qizi_001.FBX
+  artifactKey: Guid(f00a5f9f4afe07a42a1d9e96268a4203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_other_qizi_001.FBX using Guid(f00a5f9f4afe07a42a1d9e96268a4203) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3196034892914bf117586a88a8e4c1c0') in 0.016263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Levels/MainCity/Models/build/stsm_build_penshuichi_002.FBX
+  artifactKey: Guid(440fadd162ec5f9479c590b67d60ba46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/build/stsm_build_penshuichi_002.FBX using Guid(440fadd162ec5f9479c590b67d60ba46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11261aaee1f647962b373b8280b5da15') in 0.015147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/texture/44614a76.dds
+  artifactKey: Guid(2579b66953dfd2843b9f72555e2cdc69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/44614a76.dds using Guid(2579b66953dfd2843b9f72555e2cdc69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d02a575226f6b0a124bc0d46b8ee247') in 0.007654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Levels/MainCity/Models/other/beizi.FBX
+  artifactKey: Guid(4a817f50cb540cd4bbc994eaef083704) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/beizi.FBX using Guid(4a817f50cb540cd4bbc994eaef083704) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30fb5afa866c8e2b06c69942f32ae19d') in 0.017139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/MainCity/Models/texture/wuqi.png
+  artifactKey: Guid(fbb3b475565fb5046afb162c496d3fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/wuqi.png using Guid(fbb3b475565fb5046afb162c496d3fac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd1616f9dd5ac41db92ea2b0d851be08') in 0.014179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Levels/MainCity/Models/skybox/skybox_stsm_yun_002.FBX
+  artifactKey: Guid(adf1e8a8c3cadbd4ca8e5a19f1d1dc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/skybox/skybox_stsm_yun_002.FBX using Guid(adf1e8a8c3cadbd4ca8e5a19f1d1dc1c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e4ea705f237a2f4f6b67d013ab59fa8') in 0.015497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Levels/MainCity/Models/texture/n_034.tga
+  artifactKey: Guid(addf24c1e3f40564dbad0b159133b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/n_034.tga using Guid(addf24c1e3f40564dbad0b159133b8a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83dded8ac440bff5f4908cb9ebf23066') in 0.013915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Levels/MainCity/Models/texture/terrain_01.png
+  artifactKey: Guid(173d9c2e525d39a479313d907900371e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/terrain_01.png using Guid(173d9c2e525d39a479313d907900371e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67f7b50c68fd901b762cb2cd229563f2') in 0.015008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Levels/MainCity/Models/terrain/stsm.asset
+  artifactKey: Guid(3702b32abff70374aa17ee88fe79d1c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/terrain/stsm.asset using Guid(3702b32abff70374aa17ee88fe79d1c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2108ae9ccadf29eb66bae4990da6026') in 0.007110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Models/texture/yizi.png
+  artifactKey: Guid(78d63b3faf7365f4ca715be9d09928ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/yizi.png using Guid(78d63b3faf7365f4ca715be9d09928ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c5cf731c049e9fafa2a31c299c50e2d') in 0.013864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/other/yizi.FBX
+  artifactKey: Guid(5e84c6f2bda2afa498929c59f4f60af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/yizi.FBX using Guid(5e84c6f2bda2afa498929c59f4f60af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7844e767f8f17c0bc305ba4441df7cb') in 0.022081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_shuijing_001.prefab
+  artifactKey: Guid(3e054cd12fc9c164b8f6f91cc533e3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_shuijing_001.prefab using Guid(3e054cd12fc9c164b8f6f91cc533e3b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5478959310162ec04ed6fe9760b1c6b') in 0.006858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_chengmen_002.prefab
+  artifactKey: Guid(4d6f3b13ae09f0c4a919e3e980091999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_chengmen_002.prefab using Guid(4d6f3b13ae09f0c4a919e3e980091999) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd1879993d75b980fd41b3efbd46ee1ec') in 0.005903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_build_zhalan_001.FBX
+  artifactKey: Guid(e9d2e1b96b6262b4cbf2762dc548959e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_build_zhalan_001.FBX using Guid(e9d2e1b96b6262b4cbf2762dc548959e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c237039f428804952d787c78120ed89') in 0.017823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_001.prefab
+  artifactKey: Guid(28ac9cc3b8b98ad4eb246c47000bd571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_luyan_001.prefab using Guid(28ac9cc3b8b98ad4eb246c47000bd571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '031e452e6c1588843edc29ff92b4480d') in 0.006259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_other_tuiche_001.FBX
+  artifactKey: Guid(6762d22cfed05da408a696f45221042a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_other_tuiche_001.FBX using Guid(6762d22cfed05da408a696f45221042a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'feaaba423f450dc9e1767db26ea9617f') in 0.016148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Levels/MainCity/Models/texture/huodui.png
+  artifactKey: Guid(2eb2ab5f55eac2b479df4b7dc6857759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/huodui.png using Guid(2eb2ab5f55eac2b479df4b7dc6857759) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45bf999589aa20eaf96a31a305fc346e') in 0.014136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_other_gaoshilan_001.FBX
+  artifactKey: Guid(7d2b397c54e50e1438e7bf50706ffc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_other_gaoshilan_001.FBX using Guid(7d2b397c54e50e1438e7bf50706ffc33) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a606a5c6c57a8c6a87369a27048ff183') in 0.015919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Levels/MainCity/Prefabs/build/stsm_build_tiejiangpu_001.prefab
+  artifactKey: Guid(5c7e4fdced4289542806e69b412d3bfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/build/stsm_build_tiejiangpu_001.prefab using Guid(5c7e4fdced4289542806e69b412d3bfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd6fc4d865a908403e3d2f837640f9e1') in 0.008053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_build_luyan_001.FBX
+  artifactKey: Guid(8f29e41ce229c5642a49d60f422d3405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_build_luyan_001.FBX using Guid(8f29e41ce229c5642a49d60f422d3405) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '186fd3ed754a8f4d7f500616843cec7c') in 0.014915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/Models/texture/lensFlareSheet1.tga
+  artifactKey: Guid(bad133499a2edbd499fd21e7c713e47d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/lensFlareSheet1.tga using Guid(bad133499a2edbd499fd21e7c713e47d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff4267de3e8a1ecd2c31f3bdf69da372') in 0.015693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Levels/MainCity/Models/texture/mache.png
+  artifactKey: Guid(35d3943136c4ee844a6a9914083a57b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/mache.png using Guid(35d3943136c4ee844a6a9914083a57b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc79cc741f4a3c30c5160230a03c5dce') in 0.017712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Levels/Map03/Textures/section03_guanka10dimian1_5.tga
+  artifactKey: Guid(60c87a26fbb5b004d95d6c7cf157b927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Textures/section03_guanka10dimian1_5.tga using Guid(60c87a26fbb5b004d95d6c7cf157b927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5a51df352b6f8c9fef9026de3b405c2') in 0.013827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/UI/Prefabs/InputField.prefab
+  artifactKey: Guid(3666ca0b4626c8e4884cb92e30db0da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Prefabs/InputField.prefab using Guid(3666ca0b4626c8e4884cb92e30db0da6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e9905d99eea3bc485552ab62798a0c6') in 0.032068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/UI/Login/y.png
+  artifactKey: Guid(f477fdbc10739524ca4bfda2d18a36e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI/Login/y.png using Guid(f477fdbc10739524ca4bfda2d18a36e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c778dcd99d31d8f41d6369c896087d5b') in 0.014708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Levels/Map03/Prefabs/section03_guanka16_b.prefab
+  artifactKey: Guid(6010d380f718ead4aa8c27c249f3e159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map03/Prefabs/section03_guanka16_b.prefab using Guid(6010d380f718ead4aa8c27c249f3e159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b5e69e53be5bd0efb4f862a8c99eb0') in 0.009154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/MainCity/Models/other/stsm_other_dunpai_001.FBX
+  artifactKey: Guid(d042e65cf987eb54dbf02c09d5ba18bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/stsm_other_dunpai_001.FBX using Guid(d042e65cf987eb54dbf02c09d5ba18bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f282cb76bc24eca161501b1d64d0df3') in 0.015256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/Map02/Textures/stsm_plant_shuye_001.tga
+  artifactKey: Guid(b1dcf867e23288f418e610a84dbb1f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/Textures/stsm_plant_shuye_001.tga using Guid(b1dcf867e23288f418e610a84dbb1f6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '799ad7b9c29f67552f5d9901374bda76') in 0.014047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Models/Monsters/M1001/Fbx/M1001_Death.FBX
+  artifactKey: Guid(8b9cb84f603c10841bd564767f66d0e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/Fbx/M1001_Death.FBX using Guid(8b9cb84f603c10841bd564767f66d0e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2e81e9fe2a7edf59656d7804cb34f3e') in 0.019502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Idle.FBX
+  artifactKey: Guid(773d82f4eaa4b3e408bcbea2559839e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Idle.FBX using Guid(773d82f4eaa4b3e408bcbea2559839e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96f034700538b0396f6cfeb2969f7dba') in 0.026922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Characters/Warrior/tga/tietu_1副本.tga
+  artifactKey: Guid(e908db8b81bd6e44895ff0f3949d4c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Warrior/tga/tietu_1副本.tga using Guid(e908db8b81bd6e44895ff0f3949d4c3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '142ccd61f482304aae1b6d69a4784955') in 0.016477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Models/Characters/Warrior/fbx/Warrior_Hurt.FBX
+  artifactKey: Guid(afafa83bd92f43e4d85623331034690a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Warrior/fbx/Warrior_Hurt.FBX using Guid(afafa83bd92f43e4d85623331034690a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e7a7921c9cc9c25490c6aefec38b3d04') in 0.029333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Levels/MainCity/Prefabs/other/stsm_other_tuiche_001.prefab
+  artifactKey: Guid(e47f90f05c4026b44af33e72881fd8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/other/stsm_other_tuiche_001.prefab using Guid(e47f90f05c4026b44af33e72881fd8ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dbb3f67ba3fcf67e41b22da991a3da8') in 0.008630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Relax.FBX
+  artifactKey: Guid(9b765ebbd2b64df4ca2da0c8424e9859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Relax.FBX using Guid(9b765ebbd2b64df4ca2da0c8424e9859) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '471786d5dee112c1dee9c957a0a24152') in 0.020786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Characters/Archer/fbx/Archer_Hurt.FBX
+  artifactKey: Guid(4c9882f78aa655843a70b10d4e2433bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/fbx/Archer_Hurt.FBX using Guid(4c9882f78aa655843a70b10d4e2433bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '160b49e273e1c4aa9354f88fa7e38ccf') in 0.026050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Standby.FBX
+  artifactKey: Guid(a4846341e36dffb41bdb6dc17199b165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Standby.FBX using Guid(a4846341e36dffb41bdb6dc17199b165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13ecfaa5fc4b5441ae7c6ed910efa337') in 0.023787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Talk.FBX
+  artifactKey: Guid(9d9693825e929ad48be8cafc74511609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Talk.FBX using Guid(9d9693825e929ad48be8cafc74511609) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71df4468485708abed2897801aa5151a') in 0.020959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Move.FBX
+  artifactKey: Guid(4a229f65234996548b1fd8522e8bd278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_Move.FBX using Guid(4a229f65234996548b1fd8522e8bd278) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7c6a0fef61f6cfc8f9697bd51044db7') in 0.022160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 133
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Characters/Archer/fbx/Archer_SkillB.FBX
+  artifactKey: Guid(ae680d2b28f2a3546acd7feb44f5da6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/fbx/Archer_SkillB.FBX using Guid(ae680d2b28f2a3546acd7feb44f5da6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '856627d16769979c398766ff71192213') in 0.028391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Move_Back.FBX
+  artifactKey: Guid(23b7612254e782e42835ed8029c321b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Move_Back.FBX using Guid(23b7612254e782e42835ed8029c321b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '320d8931eb418da30bcecb48fb0b426d') in 0.026279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Models/Characters/Warrior/fbx/Warrior_Move_Forward.FBX
+  artifactKey: Guid(9d657f810b7a0bf48b9c87be98307cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Warrior/fbx/Warrior_Move_Forward.FBX using Guid(9d657f810b7a0bf48b9c87be98307cc0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71f701ed5275b48b174ee7c160b61605') in 0.164679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Hurt.FBX
+  artifactKey: Guid(fa210351c33ef1744b1384685475c637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Hurt.FBX using Guid(fa210351c33ef1744b1384685475c637) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba2979c6344d603308407ecd939acc3b') in 0.043504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Idle.FBX
+  artifactKey: Guid(89090c7aab27ed844ab46cdae0a5c6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Idle.FBX using Guid(89090c7aab27ed844ab46cdae0a5c6da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e788554f53e4d8f4cf792643c6eddaa') in 0.027058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/stsm_build_paihangbang_001.mat
+  artifactKey: Guid(af144a8e101a96840951b6efe07fee67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/Materials/stsm_build_paihangbang_001.mat using Guid(af144a8e101a96840951b6efe07fee67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5340fb8253f5696cf8da6b7c021e538') in 0.019055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_SkillA.FBX
+  artifactKey: Guid(d824e8437d46e594eb6faee395d94e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_redmob/fbx/treasure_redmob_SkillA.FBX using Guid(d824e8437d46e594eb6faee395d94e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a801b6b0de66e48008720562cdd5176f') in 0.021924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Objects/TreasureBox/tga/treasure_box.psd
+  artifactKey: Guid(f39dc82c4bb8eec459ae9d7597bd9a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Objects/TreasureBox/tga/treasure_box.psd using Guid(f39dc82c4bb8eec459ae9d7597bd9a47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9da646680636418913e2ec7cb228360c') in 0.030302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/stsm_build_002.mat
+  artifactKey: Guid(6621a643d4fb4af48b0d62072f010ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/Materials/stsm_build_002.mat using Guid(6621a643d4fb4af48b0d62072f010ae7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '891ddbe24cadd10d0773d64bd7d34225') in 0.004771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Levels/MainCity/Models/build/Materials/stsm_build_002.mat
+  artifactKey: Guid(1908c5d380921424b9463a36fe28af12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/build/Materials/stsm_build_002.mat using Guid(1908c5d380921424b9463a36fe28af12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca70903c9812a0d26dcd3037db2755bb') in 0.004990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillB.FBX
+  artifactKey: Guid(49c61601b33d7c141bf0fb2f357950e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_kingskull/fbx/treasure_kingskull_SkillB.FBX using Guid(49c61601b33d7c141bf0fb2f357950e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e8cbdbe53c5a87fc55f75854260340c') in 0.039974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/NPCs/Treasure_poter/tga/treasure_poter.psd
+  artifactKey: Guid(cd9412a135560c54f8585d28630d556e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_poter/tga/treasure_poter.psd using Guid(cd9412a135560c54f8585d28630d556e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13379a66a65c58579c5866725c826482') in 0.014781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_IdleA.FBX
+  artifactKey: Guid(8176631c7d781894eb1de12cb7179f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_IdleA.FBX using Guid(8176631c7d781894eb1de12cb7179f59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e05bf5bd38733274002dbc1873ed40c') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/NPCs/TaskNPC/tga/taskNPC.tga
+  artifactKey: Guid(1ab08a536ff082c40805641b11fdb296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/TaskNPC/tga/taskNPC.tga using Guid(1ab08a536ff082c40805641b11fdb296) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85d78dcb817b645876e0d31c4b102980') in 0.011739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Models/Monsters/M1001/Fbx/M1001_Move_Forward.FBX
+  artifactKey: Guid(68fb6e73b58d5b84695272123e8bb2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/Fbx/M1001_Move_Forward.FBX using Guid(68fb6e73b58d5b84695272123e8bb2bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff508edc77d2f6bea916e6c57667a47a') in 0.036706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_SkillB.FBX
+  artifactKey: Guid(374863e4313b29b4684fb3051d2e94db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_SkillB.FBX using Guid(374863e4313b29b4684fb3051d2e94db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b9d62737972b13f6242a0d5c80f44db') in 0.032717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Monsters/M1001/Fbx/M1001_Idle.FBX
+  artifactKey: Guid(59ed220ef7b274149a0a01ec30e889ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/Fbx/M1001_Idle.FBX using Guid(59ed220ef7b274149a0a01ec30e889ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b231951b73292c9badd42b98d732e81b') in 0.031190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_SkillA.FBX
+  artifactKey: Guid(9126fc7749b5aa242b44052a24a50f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_SkillA.FBX using Guid(9126fc7749b5aa242b44052a24a50f28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b40acdf2dbc8d517abbfb4918a5c8e82') in 0.053825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Relax.FBX
+  artifactKey: Guid(e06509773c30e6d4a85c14cebd6005c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/DeliveryNPC/fbx/DeliveryNPC_Relax.FBX using Guid(e06509773c30e6d4a85c14cebd6005c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0344d0bf65882fd93d0e235ec239f7a4') in 0.021295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Levels/MainCity/Models/build/Materials/zdcj_nsd01_shui_01.mat
+  artifactKey: Guid(9000f475ac7fd734287423d6f099aaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/build/Materials/zdcj_nsd01_shui_01.mat using Guid(9000f475ac7fd734287423d6f099aaa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77601edadd1d7c0f5887f307d4bc80d8') in 0.005402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/No Name.mat
+  artifactKey: Guid(09af20eff06ef1a4480de6c7c9918fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/Materials/No Name.mat using Guid(09af20eff06ef1a4480de6c7c9918fc5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddb5aab34163ff34051f5b4342fb03d9') in 0.020657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/huodui.mat
+  artifactKey: Guid(ceef9e3c450119d44b89ff721016a250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/Materials/huodui.mat using Guid(ceef9e3c450119d44b89ff721016a250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '560d7cdaeda3efa5a2d323962f601da0') in 0.057774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Move_Left.FBX
+  artifactKey: Guid(ab317f4980da01b4c9a2c024739a0949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Move_Left.FBX using Guid(ab317f4980da01b4c9a2c024739a0949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6149774709465989c55bc16dbcc60f84') in 0.043750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 173
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/MainCity/Models/skybox/Materials/skybox_yun_00.mat
+  artifactKey: Guid(b480c871b8c2c8644902e670f524b128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/skybox/Materials/skybox_yun_00.mat using Guid(b480c871b8c2c8644902e670f524b128) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b527fe222a3ac078bba47d28c2b178b7') in 0.015409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/skybox/Materials/skybox_stsm_001.mat
+  artifactKey: Guid(31993ac842c6a1b41a9c8496a0a408ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/skybox/Materials/skybox_stsm_001.mat using Guid(31993ac842c6a1b41a9c8496a0a408ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd9b3c0a1cdbca2f195fa9bbc6eb77837') in 0.005637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Relax.FBX
+  artifactKey: Guid(1ed76db66fbd1c146b46312cc7045917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Relax.FBX using Guid(1ed76db66fbd1c146b46312cc7045917) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6f91e6e7e5822c3434fc3abd434286b') in 0.031657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Models/Characters/Warrior/fbx/Warrior_Standby.FBX
+  artifactKey: Guid(a1f94dd631a970f409175f24851fb5a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Warrior/fbx/Warrior_Standby.FBX using Guid(a1f94dd631a970f409175f24851fb5a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad56655fe8c63d81c9cd7e3525fca5c3') in 0.026792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Talk.FBX
+  artifactKey: Guid(23c8c8fc9f7b7c043b3b31952e364151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/TaskNPC/fbx/taskNPC_Talk.FBX using Guid(23c8c8fc9f7b7c043b3b31952e364151) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad10e6760abc63d543da76a3915b0375') in 0.024564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 83
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_Idle.FBX
+  artifactKey: Guid(35739718b1d1a614689451ef166cdb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_Idle.FBX using Guid(35739718b1d1a614689451ef166cdb23) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9effb85509882aafa14dda55409541d') in 0.041294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Levels/MainCity/Prefabs/skybox/skybox_stsm_yun_002.prefab
+  artifactKey: Guid(bac0d4826b94b3e4d8127c32023bc0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Prefabs/skybox/skybox_stsm_yun_002.prefab using Guid(bac0d4826b94b3e4d8127c32023bc0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f87c56e197cef7358b5a3974f68997e') in 0.013691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Models/Monsters/M1001/Fbx/M1001_AtkB.FBX
+  artifactKey: Guid(42cd3f82bf3eb094c92be832540f6f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/Fbx/M1001_AtkB.FBX using Guid(42cd3f82bf3eb094c92be832540f6f56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4024a58dcc9220b13b88988034cea471') in 0.029496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Levels/MainCity/Models/other/Materials/mache.mat
+  artifactKey: Guid(d6d6363059971f44bac140001a0ac37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/other/Materials/mache.mat using Guid(d6d6363059971f44bac140001a0ac37d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c79227cf16e775ecab7d14d4313d62c9') in 0.004618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Levels/MainCity/Models/texture/zhangpeng.png
+  artifactKey: Guid(4aa278bbaecb77740bc47c5110fcc027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/MainCity/Models/texture/zhangpeng.png using Guid(4aa278bbaecb77740bc47c5110fcc027) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7279311f599a9e58b2613487f5659e75') in 0.016092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Relax.FBX
+  artifactKey: Guid(a2e85bad60e137645bb24508a4b50fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/NPCs/Treasure_poter/fbx/Treasure_poter_Relax.FBX using Guid(a2e85bad60e137645bb24508a4b50fe3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f4332716850afd5b0d79592d47d9817') in 0.021465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Monsters/M1001/Fbx/M1001_Hurt.FBX
+  artifactKey: Guid(c5ff129992e85f942819daaefd682d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Monsters/M1001/Fbx/M1001_Hurt.FBX using Guid(c5ff129992e85f942819daaefd682d7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd89c7610c0ed6b5b5be56d1fba91279f') in 0.020952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 97
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Models/Characters/Archer/fbx/Archer_Jump.FBX
+  artifactKey: Guid(0f388e34df09d0f4591ee6d0d8899310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Archer/fbx/Archer_Jump.FBX using Guid(0f388e34df09d0f4591ee6d0d8899310) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f01ece170527b421dd0244012915dca5') in 0.041032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 159
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Models/Characters/Wizard/fbx/Wizard_SkillC.FBX
+  artifactKey: Guid(073c777784ade8946859011edd23d896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Models/Characters/Wizard/fbx/Wizard_SkillC.FBX using Guid(073c777784ade8946859011edd23d896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '992915b4b1d2a3d4e16ff0dad04dbe5c') in 0.033035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 165
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Levels/Map02/LightingData.asset
+  artifactKey: Guid(ec4823e530493194b92a0f8d2fe6bb56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Levels/Map02/LightingData.asset using Guid(ec4823e530493194b92a0f8d2fe6bb56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea5037ca6104953b167ebd393b759ac0') in 0.237629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
